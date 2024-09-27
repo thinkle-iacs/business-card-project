@@ -1,5 +1,9 @@
 # Business Card Design Assignment
 
+Need a refresher on codespaces? See [CODESPACES_README](CODESPACES_README.md)
+
+Want a simple TODO list? See [TODO.md](TODO.md)
+
 ## Overview
 
 In this assignment, you'll create two business cards using HTML and CSS, showcasing your layout skills. The first card will utilize only **box model properties** for layout, while the second will use **Flexbox and Grid**.
@@ -46,5 +50,3 @@ Each card will represent an imaginary business of your choosing. This is your op
   important than others, such as social media handles)
 
 ---
-
-Need a refresher on codespaces? See [CODESPACES_README](CODESPACES_README.md)
