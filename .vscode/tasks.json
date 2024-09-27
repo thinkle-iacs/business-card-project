@@ -7,7 +7,22 @@
         "command": "npx",
         "args": ["live-server", "--no-browser","./"],
         "isBackground": true,
-        "problemMatcher": [],
+        "problemMatcher": {
+        "owner": "live-server",
+        "pattern": [
+          {
+            "regexp": ".*",
+            "file": 1,
+            "location": 2,
+            "message": 3
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Serving \"(.*)\" at http://",
+          "endsPattern": "GET /"
+        }
+      },
         "group": {
           "kind": "build",
           "isDefault": true

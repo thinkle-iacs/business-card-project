@@ -4,6 +4,17 @@
   "editor.formatOnPaste": true,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 500, // Optional: delay in milliseconds
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.devcontainer": true,
+    "**/.github": true,
+    "package*json": true,
+    ".gitignore" : true,
+  },  
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

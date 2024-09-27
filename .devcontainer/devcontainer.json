@@ -1,19 +1,22 @@
 {
   "name": "Web Developer Codespace",
   "image": "mcr.microsoft.com/vscode/devcontainers/base:0-buster",
+  "features": {
+    "node": "latest"  // This installs the latest version of Node.js
+  },
   "postCreateCommand": "git config --global pull.rebase false",
   "customizations" : {
     "vscode": {
-    "settings": {
-      "files.autoSave": "afterDelay",
-      "editor.tabSize": 2,
-      "editor.formatOnSave": true
-    },
-    "extensions": [
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode",
-      "ms-vsliveshare.vsliveshare"
-    ]
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
   }
-}
 }

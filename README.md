@@ -1,49 +1,50 @@
-# Simple Web Design Project
+# Business Card Design Assignment
 
-Welcome to our simple web design project! This project is designed to help you get started with HTML, CSS, and JavaScript in an easy-to-understand environment.
+## Overview
 
-- Instructions for understanding GitHub CodeSpaces are below.
+In this assignment, you'll create two business cards using HTML and CSS, showcasing your layout skills. The first card will utilize only **box model properties** for layout, while the second will use **Flexbox and Grid**.
 
-## Running the Project
+Each card will represent an imaginary business of your choosing. This is your opportunity to get creative!
 
-There are two ways to run the project and see your changes in real-time:
+## Requirements
 
-### Using the Play Button
+### Card 1: Box Model Layout
 
-1. Open the project in VS Code.
-2. Click on the "Run and Debug" button on the sidebar (it looks like a play button).
-3. Select "Open with Live Server" from the drop-down menu.
-4. Click the green play button. This will start a local server and open your project in a web browser.
+- Use only box model properties (e.g., `margin`, `padding`, `border`, `width`, `height`, etc.) for layout.
+- No use of Flexbox or Grid.
 
-### Using the Terminal
+### Card 2: Flexbox and Grid Layout
 
-1. Open the terminal in VS Code.
-2. Type `npx live-server ./` and press Enter. This will start a local server and open your project in a web browser.
+- Use **Flexbox** or **Grid** (or a combination) to design the layout.
+- Demonstrate a different approach from the first card.
+- See [example walk-throughs of flexbox layouts here](https://business-card-flex.netlify.app/)
 
-## Viewing the Project Side-by-Side
+### Honors Requirements:
 
-- Click on the "Ports" tab at the bottom of the editor.
-- Hover over the "Forwarded Address" link next to port 8080.
-- Click on the side-by-side (rightmost) icon
-- Hit "refresh" on the mini web-browser to update the browser when your content updates.
+- For _both_ cards, create a landscape and a portrait design (so you'll be doing 4 designs).
+- Make use of at least one "border" trick to create a
+  custom shape on the card. See [this page of
+  cool css shape examples](https://css-tricks.com/the-shapes-of-css/)
+- Include at least one "absolute positioned" element
+  on the card using relative and absolute positioning.
 
-## Editing Your Project
+### Design Elements for Both Cards
 
-- **index.html**: This is your HTML file. Edit it to change the structure of your web page.
-- **style.css**: This is your CSS file. Modify it to change the styling of your web page.
-- **main.js**: This is your JavaScript file. Use it to add interactivity to your web page.
+- Imaginary or real business with your own branding.
+- Use a **custom font** (e.g., from [Google Fonts](https://fonts.google.com/)).
+- Include images that you either:
+  1. Create yourself,
+  2. Generate using AI, such as with [Adobe Firefly](https://firefly.adobe.com/) (cite appropriately),
+  3. Use from public domain or Creative Commons (cite sources).
+- Make effective use of the key design principles we've discussed:
+  - Contrast
+  - Repetition
+  - Alignment
+  - Proximity
+- Include at least 4 different elements with at least 2 levels of visual hierarchy
+  (in other words: it has to be clear some elements, such as brand name, are more
+  important than others, such as social media handles)
 
-## Adding Extensions
+---
 
-You should be prompted to install extensions when this Codespace loads -- say yes and you'll
-get automatic code formatting set up as well as github copilot (an AI tool to try to help you code).
-
-## Files You Can Ignore
-
-You don't need to worry about the following files and folders. They are used to set up and run your project environment:
-
-- `package.json` and `package-lock.json`: Configuration files for Node.js.
-- `node_modules`: A folder containing all the packages and dependencies for the project.
-- `.vscode`: Contains configuration files for Visual Studio Code.
-
-Happy coding! If you have any questions or run into issues, feel free to ask for help.
+Need a refresher on codespaces? See [CODESPACES_README](CODESPACES_README.md)
