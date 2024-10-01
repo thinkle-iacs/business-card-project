@@ -1,10 +1,7 @@
 {
   "name": "Web Developer Codespace",
-  "image": "mcr.microsoft.com/vscode/devcontainers/base:0-buster",
-  "features": {
-    "node": "latest"  // This installs the latest version of Node.js
-  },
-  "postCreateCommand": "git config --global pull.rebase false",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "git config --global pull.rebase false && npm install",
   "customizations" : {
     "vscode": {
       "settings": {
