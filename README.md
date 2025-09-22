@@ -50,4 +50,34 @@ Each card will represent an imaginary business of your choosing. This is your op
   (in other words: it has to be clear some elements, such as brand name, are more
   important than others, such as social media handles)
 
----
+## RUBRIC
+
+[*] Indicates honors requirements
+
+<table>
+<tr><th>Criteria</th><th>Passing (2)</th><th>Proficient (3)</th><th>Excellent (4)</th></tr>
+<tr><td>Box Model Usage</td>
+  <td>Uses padding and margin to create spacing.</td>
+  <td>Effectively uses padding, margin, and borders to create a well-structured layout</td>
+  <td>Includes nested boxes (boxes within boxes).
+  <br>
+  <br>*Includes at least one "border" trick to create a custom shape on the card.
+  <br>*Includes at least one "absolute positioned" element on the card using relative and absolute positioning.
+  </td></tr>
+<tr>
+  <td>Flexbox/Grid Usage</td>
+  <td>Uses flexbox or grid to align items in a basic layout.</td>
+  <td>Effetively uses flexbox to align items in at least two separate containers.</td>
+  <td>Masterfully uses flexbox and/or grid to create an effective layout, including 
+  specifying alignment in both main and cross axes (justify-content and align-items).</td></tr>
+<tr>
+  <td>Design Principles</td>
+  <td>Includes at least 4 different elements with at least 2 levels of visual hierarchy.</td>
+  <td>Effectively applies design principles (contrast, repetition, alignment, proximity)
+  to create a visually appealing card.</td>
+  <td>Masterfully applies design principles (contrast, repetition, alignment, proximity)
+  to create a visually appealing and professional-looking card.
+  <br>
+  <br>Includes a custom font.
+  <br>*Includes at least one instance of "color matching" (where a key color from the card is drawn from an image you are using).</td></tr>
+</table>
