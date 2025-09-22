@@ -25,12 +25,13 @@ Each card will represent an imaginary business of your choosing. This is your op
 
 ### Honors Requirements:
 
-- For _both_ cards, create a landscape and a portrait design (so you'll be doing 4 designs).
 - Make use of at least one "border" trick to create a
   custom shape on the card. See [this page of
   cool css shape examples](https://css-tricks.com/the-shapes-of-css/)
 - Include at least one "absolute positioned" element
   on the card using relative and absolute positioning.
+- Include at least one instance of "color matching" (where a key color from the
+  card is drawn from an image you are using).
 
 ### Design Elements for Both Cards
 

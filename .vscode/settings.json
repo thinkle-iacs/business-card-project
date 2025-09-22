@@ -13,8 +13,8 @@
     "**/.devcontainer": true,
     "**/.github": true,
     "package*json": true,
-    ".gitignore" : true,
-  },  
+    ".gitignore": true
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

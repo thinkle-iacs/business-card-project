@@ -3,34 +3,52 @@
   <head>
     <title>Hello World</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
     <link rel="stylesheet" href="./template.css" />
+    <link rel="stylesheet" href="./style-flex.css" />
+    <link rel="stylesheet" href="./style-box-model.css" />
   </head>
   <body>
     <h1>Business Cards</h1>
-    <div class="attribution">
-      By [your name here]
-    </div>
+    <p class="attribution">By [your name here]</div>
 
-    <main class="card landscape card-1"></main>
+    <h2>Box Model Card:</h2>
 
-    <main class="card landscape card-2"></main>
+    <!-- Change landscape to portrait for a 
+     portrait card -->
+    <main class="card landscape card-1">
+      <div class="card-front">
+        <!-- Front of card here -->         
+      </div>
+      <div class="card-back">
+        <!-- Back of card here -->
+      </div>
+    </main>
 
-    <!-- Delete the cards below if not
-     doing "honors" assignment -->
+    <p>Explain your layout approach here...</p>
 
-    <main class="card portrait card-3"></main>
+    <h2>Flex Box Card:</h2>
 
-    <main class="card portrait card-4"></main>
+    <!-- Change landscape to portrait for a 
+     portrait card -->
+    <main class="card landscape card-2">
+      <div class="card-front">
+        <!-- Front of card -->
+      </div>
+      <div class="card-back">
+        <!-- Back of card -->
+      </div>
+    </main>
+
+    <p>Explain your layout approach here...</p>
 
     <div>
       <h4>Sources</h4>
       <ul>
-        <li>List sources for 
-          images, etc. here
-        </li>
+        <li>List sources for images, etc. here</li>
       </ul>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
