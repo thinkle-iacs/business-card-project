@@ -10,6 +10,14 @@ DO NOT suggest writing any custom JS.
 
 DO NOT suggest using any CSS libraries: this is a vanilla CSS project.
 
+## PROJECT REQUIREMENTS
+
+You can see the project requirements the student is working on in README.md. The key points are:
+
+- They are creating two business cards.
+- Each card must remain the size (2.5x3in or 3in x 2.5in).
+- One card must use the BOX MODEL and the other FLEX BOX for layout.
+
 ## style-box-model.css
 
 When you are helping the student edit THIS code, they should have a plan for how to lay their project out
