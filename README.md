@@ -38,8 +38,8 @@ Each card will represent an imaginary business of your choosing. This is your op
 
 Both `box.css` and `flex.css` start with two helpers:
 
-- A **reset** that removes the space browsers add around headings, paragraphs,
-  and lists, so every bit of space on your card is space you chose.
+- A **reset** that removes the space browsers add around headings and paragraphs,
+  so every bit of space on your card is space you chose.
 - A **wireframe** rule (commented out). Uncomment it to see an outline around every
   box on your card while you work on your layout.
 

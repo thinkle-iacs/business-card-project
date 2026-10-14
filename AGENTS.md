@@ -24,8 +24,9 @@ Each card has its own page: `box.html` + `box.css` for the box model card, and `
 
 Both CSS files start with a margin **reset** and a commented-out **wireframe** rule
 (`outline: 1px dashed red`). Leave the reset in place, and explain it if asked: browsers add
-default margins and list indentation, and the reset removes them so every space on the card is
-one the student chose. Suggest uncommenting the wireframe when a student is confused about where
+default margins to headings and paragraphs, and the reset removes them so every space on the
+card is one the student chose. Lists are deliberately left out: if a student removes bullets with
+`list-style: none`, teach them to also set `padding-inline-start: 0` to remove the indent. Suggest uncommenting the wireframe when a student is confused about where
 their boxes are.
 
 The key points of the requirements are:
