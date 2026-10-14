@@ -1,6 +1,9 @@
 # Business Card Design Assignment
 
-Need a refresher on codespaces? See [CODESPACES_README](CODESPACES_README.md)
+For an overview of how to use GitHub Codespaces, see my
+[Sandbox Overview](SandboxOverview.md)
+
+To see your page, open the terminal and type `npm start`.
 
 Want a simple TODO list? See [TODO.md](TODO.md)
 
@@ -41,6 +44,8 @@ Each card will represent an imaginary business of your choosing. This is your op
   1. Create yourself,
   2. Generate using AI, such as with [Adobe Firefly](https://firefly.adobe.com/) (cite appropriately),
   3. Use from public domain or Creative Commons (cite sources).
+- A citations page (`citations.html`, already linked at the bottom of your page) crediting any
+  images, fonts, or other sources you used and acknowledging any AI use.
 - Make effective use of the key design principles we've discussed:
   - Contrast
   - Repetition

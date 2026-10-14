@@ -1,11 +1,9 @@
 {
-  "name": "web-design-portfolio",
+  "name": "business-card-project",
   "version": "1.0.0",
-  "description": "Web Design Portfolio Assignment",
-  "main": "main.js",
+  "description": "Web Design Business Card Project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server public/"
+    "start": "npx --yes live-server --no-browser --port=5500 ."
   },
   "keywords": [],
   "author": "",

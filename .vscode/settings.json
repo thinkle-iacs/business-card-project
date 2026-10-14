@@ -2,32 +2,45 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 500, // Optional: delay in milliseconds
   "files.exclude": {
     "**/.git": true,
     "**/.vscode": true,
     "**/node_modules": true,
-    "**/dist": true,
-    "**/build": true,
-    "**/.devcontainer": true,
+    "package.json": true,
+    "package-lock.json": true,
     "**/.github": true,
-    "package*json": true,
-    ".gitignore": true
+    ".gitignore": true,
+    "screenshots": true
   },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "package.json": true,
+    "package-lock.json": true
+  },
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/.vscode/**": true,
+    "**/node_modules/**": true
+  },
+  "html.format.indentInnerHtml": true,
+  "html.format.extraLiners": "",
+  "html.format.wrapLineLength": 100,
+  "html.format.endWithNewline": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "workbench.startupEditor": "readme",
+  "files.insertFinalNewline": true
 }

@@ -8,7 +8,7 @@ Keep track of your "To-Do" list here, including what you have already done and w
 3. [ ] Choose a custom font from [Google Fonts](https://fonts.google.com/)
 4. [ ] Select or create images for the business cards:
    - [ ] Create your own image, use public domain or Creative Commons, or generate with AI ([Adobe Firefly](https://firefly.adobe.com/))
-   - [ ] Make sure to cite the sources for images
+   - [ ] Make sure to cite the sources for images in `citations.html`
 5. [ ] Identify at least 4 different elements to include in your design with at least 2 different levels
        of importance (visual heirarchy).
        
