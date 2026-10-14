@@ -1,0 +1,36 @@
+/* RESET: Browsers add space above and below headings, paragraphs,
+ * and lists, and indent lists. We turn that off so every bit of
+ * space on your card is space YOU chose with margin and padding. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin-block: 0;
+}
+ul,
+ol {
+  padding-inline-start: 0;
+}
+
+/* WIREFRAME: Uncomment this to see the outline of every box on your
+ * card. (An outline takes up no space, so it won't change your layout.)
+ * Comment it back out when you are done. */
+/*
+.card * {
+  outline: 1px dashed red;
+}
+*/
+
+/* Your box model card styles go here!
+ * Layout with margin, padding, border, width, and height only
+ * (no flexbox or grid). */
+.card h1 {
+  /* Demo style -- remove me and write your own */
+  color: red;
+  margin-left: 1.5in;
+}

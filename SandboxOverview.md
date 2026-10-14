@@ -44,9 +44,9 @@ choose **Run Task**, and select **Start Live Server**.
 - Choose the "File Explorer" tab to see your files in the project root.
   ![img](./screenshots/github-file-editor.png)
 
-- **index.html**: This is your HTML file. Put the content of your two business cards here.
-- **style-box-model.css**: The CSS for your box model card (card 1).
-- **style-flex.css**: The CSS for your flexbox card (card 2).
+- **index.html**: Your name and links to your two cards.
+- **box.html** and **box.css**: The HTML and CSS for your box model card (card 1).
+- **flex.html** and **flex.css**: The HTML and CSS for your flexbox card (card 2).
 - **citations.html**: Your sources and AI use.
 - **template.css**: The CSS that makes the cards card-sized and flip. Don't change it!
 

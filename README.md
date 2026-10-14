@@ -11,22 +11,46 @@ Want a simple TODO list? See [TODO.md](TODO.md)
 
 In this assignment, you'll create two business cards using HTML and CSS, showcasing your layout skills. The first card will utilize only **box model properties** for layout, while the second will use **Flexbox and Grid**.
 
+Each card gets its own page:
+
+- `index.html`: your name and links to your two cards
+- `box.html` + `box.css`: Card 1, the box model card
+- `flex.html` + `flex.css`: Card 2, the flexbox card
+- `citations.html`: your sources and AI use
+
 Each card will represent an imaginary business of your choosing. This is your opportunity to get creative!
 
 ## Requirements
 
-### Card 1: Box Model Layout
+### Card 1: Box Model Layout (`box.html` + `box.css`)
 
 - Use only box model properties (e.g., `margin`, `padding`, `border`, `width`, `height`, etc.) for layout.
 - No use of Flexbox or Grid.
+- Warm up with [Cats in Boxes](https://cat-in-box.netlify.app/) to practice the box model.
 
-### Card 2: Flexbox and Grid Layout
+### Card 2: Flexbox and Grid Layout (`flex.html` + `flex.css`)
 
 - Use **Flexbox** or **Grid** (or a combination) to design the layout.
 - Demonstrate a different approach from the first card.
 - See [example walk-throughs of flexbox layouts here](https://business-card-flex.netlify.app/)
 
+### Starter CSS
+
+Both `box.css` and `flex.css` start with two helpers:
+
+- A **reset** that removes the space browsers add around headings, paragraphs,
+  and lists, so every bit of space on your card is space you chose.
+- A **wireframe** rule (commented out). Uncomment it to see an outline around every
+  box on your card while you work on your layout.
+
 ### Honors Requirements:
+
+- Make your flexbox card **change size**. Add the "Change size" button (it's
+  in a comment in `flex.html`), which switches your card between `landscape`,
+  `portrait`, and `square`. Your card must look good at all three sizes. Use
+  the size classes in your CSS to adjust your design for each one, for example
+  `.square .card-front { ... }`. One set of HTML, different CSS: this is the
+  idea behind _responsive design_.
 
 - Make use of at least one "border" trick to create a
   custom shape on the card. See [this page of
@@ -74,7 +98,9 @@ Each card will represent an imaginary business of your choosing. This is your op
   <td>Uses flexbox or grid to align items in a basic layout.</td>
   <td>Effetively uses flexbox to align items in at least two separate containers.</td>
   <td>Masterfully uses flexbox and/or grid to create an effective layout, including 
-  specifying alignment in both main and cross axes (justify-content and align-items).</td></tr>
+  specifying alignment in both main and cross axes (justify-content and align-items).
+  <br>
+  <br>*Card looks good in landscape, portrait, and square sizes.</td></tr>
 <tr>
   <td>Design Principles</td>
   <td>Includes at least 4 different elements with at least 2 levels of visual hierarchy.</td>

@@ -17,22 +17,36 @@ the business cards_ that they are creating based on the template that exists in 
   The student is not supposed to change those.
 - DO NOT suggest writing any custom JS.
 - DO NOT suggest using any CSS libraries: this is a vanilla CSS project.
-- Keep the footer link to `citations.html`.
+- Keep the footer links to `index.html` and `citations.html`.
+
+Each card has its own page: `box.html` + `box.css` for the box model card, and `flex.html` +
+`flex.css` for the flexbox card. `index.html` just links to them.
+
+Both CSS files start with a margin **reset** and a commented-out **wireframe** rule
+(`outline: 1px dashed red`). Leave the reset in place, and explain it if asked: browsers add
+default margins and list indentation, and the reset removes them so every space on the card is
+one the student chose. Suggest uncommenting the wireframe when a student is confused about where
+their boxes are.
 
 The key points of the requirements are:
 
 - They are creating two business cards.
-- Each card must remain the size set by the template (3.5in x 2in landscape, or 2in x 3.5in
-  portrait).
+- Each card must remain the size set by the template: 3.5in x 2in (`landscape`), 2in x 3.5in
+  (`portrait`), or 2.5in x 2.5in (`square`).
+- Honors: the student adds the "Change size" button (provided in a comment in `flex.html`), which
+  uses the template JS to switch the card between those three sizes. The flexbox card must look
+  good at all three. Help them adjust the design with the size classes, e.g.
+  `.square .card-front { ... }`. Size classes are enough here; do not introduce media queries or
+  container queries unless the student asks about them.
 - One card must use the BOX MODEL and the other FLEXBOX for layout.
 
-## style-box-model.css
+## box.css
 
 When you are helping the student edit THIS code, they should have a plan for how to lay their
 project out using the box model only. DO NOT SUGGEST USING FLEXBOX OR GRID FOR THIS FILE. The goal
 is that the student learn to use margin, padding and size for layout here.
 
-## style-flex.css
+## flex.css
 
 When you are helping the student edit THIS code, they should have a plan for how to lay their
 project out using FLEXBOX and/or GRID. They will likely need to learn to _nest_ flex containers
@@ -48,11 +62,13 @@ RESORTING TO TRANSFORM, POSITION: ABSOLUTE OR POSITION: FIXED. If the student wa
 something for which absolute positioning is really the only solution, you can help them with
 that, but it should be a last resort.
 
-## index.html
+## box.html and flex.html
 
-This has all of the core content for their file. If a student is struggling to understand mapping
-CSS to HTML, you can suggest they just use inline styling here as needed. The key, though, is that
-this file has everything they need.
+These have all of the core content for each card. If a student is struggling to understand
+mapping CSS to HTML, you can suggest they just use inline styling here as needed. The key, though,
+is that these files have everything they need.
+
+Good box model practice for students: [Cats in Boxes](https://cat-in-box.netlify.app/).
 
 ## Student authorship
 
@@ -79,7 +95,7 @@ CSS example:
 ```css
 /* AI-generated code starts here */
 /* Student prompt: "Center the logo and business name on the front of my card." */
-.card-2 .card-front {
+.card-front {
   display: flex;
   flex-direction: column; /* stack items top to bottom */
   justify-content: center; /* center along the main (vertical) axis */

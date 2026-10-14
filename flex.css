@@ -1,0 +1,36 @@
+/* RESET: Browsers add space above and below headings, paragraphs,
+ * and lists, and indent lists. We turn that off so every bit of
+ * space on your card is space YOU chose with margin and padding. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin-block: 0;
+}
+ul,
+ol {
+  padding-inline-start: 0;
+}
+
+/* WIREFRAME: Uncomment this to see the outline of every box on your
+ * card. (An outline takes up no space, so it won't change your layout.)
+ * Comment it back out when you are done. */
+/*
+.card * {
+  outline: 1px dashed red;
+}
+*/
+
+/* Your flexbox card styles go here! */
+.card-front {
+}
+
+/* Honors: styles for each card size, for example:
+.square .card-front {
+}
+*/

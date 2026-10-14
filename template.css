@@ -2,7 +2,7 @@
  * PROJECT TEMPLATE    
  * DO NOT MODIFY       
  * 
- * Your code should go in style-box-model.css and style-flex.css
+ * Your code should go in box.css and flex.css
  *
  * -------------------------------------------------------------
  * This file contains the core layout and card styles for the project.
@@ -31,6 +31,11 @@
 .card.portrait {
   height: 3.5in;
   width: 2in;
+}
+
+.card.square {
+  width: 2.5in;
+  height: 2.5in;
 }
 
 /* Hover effect - slight tilt to show interactivity */

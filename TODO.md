@@ -12,16 +12,18 @@ Keep track of your "To-Do" list here, including what you have already done and w
 5. [ ] Identify at least 4 different elements to include in your design with at least 2 different levels
        of importance (visual heirarchy).
        
-### Card 1: Box Model Layout
-1. [ ] Create a business card using only box model properties (margin, padding, border, width, height, etc.)
-2. [ ] Ensure no Flexbox or Grid is used
+### Card 1: Box Model Layout (`box.html` + `box.css`)
+1. [ ] Practice with [Cats in Boxes](https://cat-in-box.netlify.app/)
+2. [ ] Create a business card using only box model properties (margin, padding, border, width, height, etc.)
+3. [ ] Ensure no Flexbox or Grid is used
 
-### Card 2: Flexbox and Grid Layout
+### Card 2: Flexbox and Grid Layout (`flex.html` + `flex.css`)
 1. [ ] Create a business card using Flexbox or Grid for layout
 2. [ ] Demonstrate a different approach from Card 1
 3. [ ] Review Flexbox layouts [here](https://business-card-flex.netlify.app/)
 
 ### Honors Requirements (Optional)
-1. [ ] Create both a landscape and a portrait design for **both** cards (4 designs total)
+1. [ ] Add the "Change size" button to `flex.html` and make your flexbox card look good in landscape, portrait, and square
 2. [ ] Use at least one "border" trick to create a custom shape on one or more cards. Reference [this page](https://css-tricks.com/the-shapes-of-css/)
 3. [ ] Include at least one "absolute positioned" element on each card, using relative and absolute positioning
+4. [ ] Include at least one instance of "color matching" (a key color on the card is drawn from an image you are using)
