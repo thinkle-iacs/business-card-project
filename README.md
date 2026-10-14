@@ -79,6 +79,10 @@ Both `box.css` and `flex.css` start with two helpers:
   (in other words: it has to be clear some elements, such as brand name, are more
   important than others, such as social media handles)
 
+## Resources
+
+- [Mr. H's YouTube Tutorials](https://www.youtube.com/playlist?list=PLflZkPk04CGo)
+
 ## RUBRIC
 
 [*] Indicates honors requirements
